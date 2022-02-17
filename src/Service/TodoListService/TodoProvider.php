@@ -2,7 +2,7 @@
 
 namespace App\Service\TodoListService;
 
-interface TodeProvider
+interface TodoProvider
 {
     public function execute();
     public function getData();

@@ -1,11 +1,9 @@
 <?php
 
-
 namespace App\Service\TodoListService;
 use App\Constants;
 
-
-class EnProvider extends AbstractProvider implements TodeProvider
+class EnProvider extends AbstractProvider implements TodoProvider
 {
     /**
      * @var string

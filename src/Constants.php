@@ -23,6 +23,4 @@ class Constants
         'developer 1' => 45,
     ];
 
-
-
 }

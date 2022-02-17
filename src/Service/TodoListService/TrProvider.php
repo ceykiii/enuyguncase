@@ -1,13 +1,9 @@
 <?php
 
-
 namespace App\Service\TodoListService;
 use App\Constants;
-use App\Entity\TodoPlan;
-use Doctrine\ORM\EntityManagerInterface;
 
-
-class TrProvider extends AbstractProvider implements TodeProvider
+class TrProvider extends AbstractProvider implements TodoProvider
 {
     /**
      * @var string
